@@ -17,10 +17,10 @@ public class Tribunal {
     private Long id;
     private String place;
     private Date fecha;
-    // private Integer estudianteId;
+    private Long personaId;
     // private Integer presidenteId;
     // private Integer vocal1Id;
-    // private Integervocal2Id;
+    // private Integer vocal2Id;
     // private Integer suplenteId;
   
 }

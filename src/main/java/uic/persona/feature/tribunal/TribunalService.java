@@ -5,10 +5,15 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import uic.persona.feature.persona.CostumerPersona;
+
 @Service
 public class TribunalService {
+
     @Autowired
     TribunalRepository tribunalRepository;
+    @Autowired CostumerPersona costumerPersona;
+  
 
     
     public Tribunal save(Tribunal entity){

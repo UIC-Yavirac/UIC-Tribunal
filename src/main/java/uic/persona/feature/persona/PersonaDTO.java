@@ -7,5 +7,6 @@ public class PersonaDTO {
     private Long id;
     private String nombre; 
     private String cedula;
+    private String tipo;
    
 }

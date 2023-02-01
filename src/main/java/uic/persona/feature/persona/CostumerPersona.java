@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 
 
-@FeignClient(name = "bff.customer", url = "http://localhost:8000/api/persona")
+@FeignClient(name = "bff.customer", url = "http://localhost:2000/api/persona")
 public interface CostumerPersona {
 
     @GetMapping("/{id}/")
